@@ -1,0 +1,6 @@
+
+option batch on
+option confirm off
+open scp://user:password@x.x.x.x
+put Z:\folder\*.pcap /root/Desktop/current/pcaps/folder/*.pcap
+exit
